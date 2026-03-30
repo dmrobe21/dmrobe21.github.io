@@ -1,56 +1,22 @@
-<!--declare what type of page this is-->
-<!DOCTYPE html> 
-
-<!--where html starts and ends-->
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>OUR FIRST GAME</title>
+    <meta charset="UTF-8">
+    <title>Science Page</title>
 </head>
+<body>
 
-<!--html pages are made of elements-->
-<!--elements have three parts, a tag that describes the elements, the content/what's being rendered by the browser and the attributes-->
-<body style="background-color: darkcyan; color: white; font-family: monospace;">
-
-    <!--H1 through H6 are Section Titles-->
-
-    <h1 style="color: white; text-align: center; font-family: monospace;">POKEMON (BUT NOT REALLY) THE GAME</h1>
-    <!--IMG element renders an image-->
-
-    <img src="./assets/Pallet_Town_PE.png" aria-label="an image of pallet town from pokemon" style="width: 100%;">
-
-    <button class="start button" style="width: 100%;"><h1 style="text-align: center;"><a href="./game.html">START</a></h1></button>
-
-    <!--LISTS: ordered listst (where steps count; 1,2,3,4) and unordered lists (lists where order doesn't matter; *,*)-->
-
-
-    <section id="credits">
-        <h2 style="text-align: center;">Credits</h2>
-        <ol>
-            <l1>Sprites: </l1> <a href="https://www.dragonflycave.com/resources/sprite-generator/">Dragonfly Cave</a></l1> 
-            <l1>Pallet Town Image: <a href="https://www.dragonflycave.com/resources/sprite-generator/">Bulbapedia</a></l1>
-        </ol>
+    <!-- First class with two IDs -->
+    <section class="experiment-group">
+        <button id="gravity">Gravity Experiment</button>
+        <button id="chemistry">Chemistry Experiment</button>
     </section>
 
-    <h3 style="color: white; text-align: center; font-family: monospace;">COPYRIGHT: Pokemon is a game by Game Freak, this page was created for educational purposes.</h3>
-
-
-
-    
-
+    <!-- Second class with two IDs -->
+    <div class="science-resources">
+        <img id="microscope" src="microscope.png" alt="Microscope Image" style="width: 30%;"> 
+        <a id="nasa" href="https://www.nasa.gov">Visit NASA</a>
+    </div>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
