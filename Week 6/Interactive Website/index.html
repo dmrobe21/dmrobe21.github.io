@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boys of Tommen</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Boys of Tommen</h1>
+    <h3 id="greeting"></h3>
+  </header>
+
+<nav>
+  <a href="newspaper.html" class="nav-link">School Newspaper</a>
+  <a href="hours.html" class="nav-link">Office Hours</a>
+</nav>
+
+  <section>
+    <h2>Welcome!</h2>
+
+    <div class="card" id="characterCard">
+      <p>
+       This website is inspired by the "Boys of Tommen" series by Chloe Walsh, a story of friendship, love, and growth at Tommen College.
+       It was made for educational purposes only. 
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interactive Quote</h2>
+
+    <div class="card">
+      <p id="quoteText">
+        Click below to reveal a quote.
+      </p>
+
+      <button id="quoteBtn">Show Quote</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>Join the Tommen Fan List!</h2>
+
+    <input id="nameInput" placeholder="Type your name..." />
+    <p id="nameMessage"></p>
+  </section>
+
+<section>
+  <h2>Tommen Rugby Schedule</h2>
+
+  <div class="card schedule">
+
+    <button id="prevBtn">⬅</button>
+
+    <div id="gameDisplay">
+      <h3 id="opponent">Tommen vs Ballylaggin</h3>
+      <p id="date">Friday - 7:00 PM</p>
+    </div>
+
+    <button id="nextBtn">➡</button>
+
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
